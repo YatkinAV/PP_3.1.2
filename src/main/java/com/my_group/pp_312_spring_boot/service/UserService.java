@@ -30,14 +30,4 @@ public class UserService {
     public void deleteById(Integer id) {
         userRepository.deleteById(id);
     }
-
-   /* public void editUser(Integer id, User user) {
-        User user1 = userRepository.findById(id).orElse(null);;
-        user1.setId(user.getId());
-        user1.setFirstName(user.getFirstName());;
-        user1.setLastName(user.getLastName());
-        user1.setMail(user.getMail());
-        user1.setAge(user.getAge());
-        userRepository.save(user1);
-    }*/
 }
